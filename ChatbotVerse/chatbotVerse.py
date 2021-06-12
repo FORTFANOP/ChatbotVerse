@@ -1,6 +1,15 @@
+"""
+Module containing classes for creating, training and using a chatbot model.
+Author: Joel John Mathew (FORTFANOP)
+YouTube: The Technological Electronic Guy (https://www.youtube.com/channel/UCNC29CKOxweYhqyOzAZHfSA)
+"""
+
+__author__ = "Joel John Mathew (FORTFANOP), The Technological Electronic Guy"
+__email__ = "thetechnologicalelectronicguy@gmail.com"
+__status__ = "planning"
+
 import nltk
 from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
 import json
 import pickle
 import numpy as np
@@ -9,13 +18,13 @@ from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
 import random
 from tensorflow.keras.models import load_model
-# To remove tensorflow deprecation warnings
-from tensorflow.python.util import deprecation
-deprecation._PRINT_DEPRECATION_WARNINGS = False
+from tensorflow.python.util import deprecation  # To remove tensorflow deprecation warnings
 import warnings
+
+deprecation._PRINT_DEPRECATION_WARNINGS = False
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=DeprecationWarning)
-
+lemmatizer = WordNetLemmatizer()
 
 class modelTrain:
     def __init__(self):
