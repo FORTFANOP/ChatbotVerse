@@ -1,0 +1,18 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola","Hallo", "Hello", "Good day", "What's Up?"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?", "Hello!", "Hey!", "Hi!"],
+         "context": [""]
+        },
+        {"tag": "exit",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "cya", "terminate", "dalton, terminate", "terminate all processes", "End all processes"],
+         "responses": ["Goodbye!", "See you soon", "Come back soon"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thanks a lot!", "Hey thanks a lot"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "It's my duty"],
+         "context": [""]
+        }
+]
+}
