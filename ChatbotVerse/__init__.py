@@ -1,2 +1,2 @@
-from chatbotVerse import modelTrain
-from chatbotVerse import modelPredict
+from ChatbotVerse.chatbotVerse import modelTrain
+from ChatbotVerse.chatbotVerse import modelPredict
