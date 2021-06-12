@@ -1,4 +1,4 @@
-from ChatbotVerse import chatbot_verse as cbv
+from ChatbotVerse import chatbotVerse as cbv
 
 # Initialize trainer
 trainer = cbv.modelTrain()
