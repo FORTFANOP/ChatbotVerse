@@ -11,7 +11,7 @@ Here's how easy it is to instantiate a neural network based bot using ChatbotVer
 
 ### Importing the module
 ```python
-from ChatbotVerse import chatbotVerse as cbv```
+from ChatbotVerse import chatbotVerse as cbv
 
 ### Initialize trainer
 ```python
