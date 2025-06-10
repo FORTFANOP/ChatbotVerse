@@ -12,6 +12,7 @@ Here's how easy it is to instantiate a neural network based bot using ChatbotVer
 ### Importing the module
 ```python
 from ChatbotVerse import chatbotVerse as cbv
+```
 
 ### Initialize trainer
 ```python
@@ -23,11 +24,13 @@ train_x, train_y = trainer.prepareTrainingData(words, classes)  # Prepares train
 
 ### Create the model
 ```python
-model = trainer.createModel(train_x, train_y, save_path='cbv_model.model')```
+model = trainer.createModel(train_x, train_y, save_path='cbv_model.model')
+```
 
 ### Initialize predictor
 ```python
-predictor = cbv.modelPredict('intents.json', 'cbv_model.model')```
+predictor = cbv.modelPredict('intents.json', 'cbv_model.model')
+```
 
 ### Get output from the bot
 ```python
